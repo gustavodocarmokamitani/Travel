@@ -1,0 +1,28 @@
+.navbar {
+    margin-top: 40px;
+
+    input {
+        width: 340px;
+        height: 48px;
+        padding: 25px;
+        border: 1px solid rgba(151, 156, 158, 1);
+        border-radius: 25px;
+    }
+    .inputGroup {
+        position: relative;                
+        
+        .inputButton {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 10%;
+            right: 5px;
+            border: 0;
+            border-radius: 25px;
+            background-color: #BCFD49;
+        }
+    }
+    .contact {
+        margin-left: 25px;
+    }
+}

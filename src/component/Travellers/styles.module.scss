@@ -1,0 +1,42 @@
+.slideContainer {
+    margin: 0 auto;
+    width: 750px;
+    height: 465px;
+    background-color: black;
+    border-radius: 35px;
+    position: relative;
+
+    button {
+        width: 15px !important;
+        height: 15px !important;
+        border: 1px solid white !important;
+
+        &:focus {
+            border: 1px solid greenyellow !important;
+        }
+    }
+}
+
+.slickSlide {
+    position: absolute;
+    bottom: 40px;
+    left: -200px;
+    width: 1120px;
+}
+
+.slideCard {
+    width: 335px;
+    height: 310px;
+    background-color: white;
+    padding: 50px 25px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    h5 {
+        margin: 15px 0;
+    }
+
+    p {
+        font-weight: 200;
+    }
+}

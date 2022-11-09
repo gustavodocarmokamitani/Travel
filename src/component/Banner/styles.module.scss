@@ -1,0 +1,70 @@
+.slides {
+    position: relative;
+   img {
+    object-fit: cover;
+    object-position: bottom;
+    position: relative;    
+   }
+
+    button {
+        width: 16px !important;
+        height: 16px !important;
+        border: 1px solid transparent !important;
+        border-radius: 50px !important;
+        margin: 0 15px !important;
+    }    
+}
+
+.bannerContent {
+    position: absolute !important;
+    width: 100%;    
+    top: 30%;
+    
+    h1 {
+        color: white !important;
+        margin-bottom: 80px;
+        font-weight: 900;
+        font-size: 64px;
+    }
+    
+    .buttonTrips {
+        width: 380px;
+        height: 60px;
+        background-color: #BCFD49;
+        border: transparent;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 150px;
+    }
+
+    .bannerSearch {
+        width: 1600px;
+        height: 80px;
+        border-radius: 50px;
+        background-color: white;
+
+        img {
+            margin-left: 30px;
+        }
+
+        input {            
+            width: 300px;
+            height: 75px;
+            padding: 0 15px;
+            border: transparent;   
+            margin-left: 15px;         
+        }
+
+        button {
+            width: 200px;
+            height: 60px;
+            font-weight: 600;
+            margin-right: 10px;
+            background-color: #BCFD49;
+            border: transparent;
+            border-radius: 50px;
+        }
+    }
+
+}

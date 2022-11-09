@@ -1,0 +1,19 @@
+.largeCard {
+    width: 600px !important;
+    height: 385px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+    text-decoration: none;    
+    img {
+        position: absolute;
+        border-radius: 65px !important;
+    }
+
+    h1 {
+        z-index: 2;
+        margin: 0;
+        color: white !important;
+    }
+}

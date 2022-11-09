@@ -1,0 +1,37 @@
+.footerContainer {
+    background-color: #101010;
+    margin-top: 150px;
+
+    .footerContent {
+        padding: 100px 0;
+        ul {
+            list-style-type: none;
+
+            li {
+                margin: 10px 0;
+                color: #9D9595 !important;
+            }
+
+            .bannerTitle {
+                font-size: 20px !important;
+                color: white !important;
+                font-weight: 900;
+            }
+        }
+        .footerIconsInsta {
+            width: 25px;
+            height: 25px;
+            margin: 15px 30px 0 0;
+        }
+        .footerIconsFace {
+            width: 20px;
+            height: 25px;
+            margin: 15px 30px 0 0;
+        }
+        .footerIconsTwitter {
+            width: 30px;
+            height: 25px;
+            margin: 15px 30px 0 0;
+        }
+    }
+}
